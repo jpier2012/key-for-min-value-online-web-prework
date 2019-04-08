@@ -8,9 +8,9 @@ def key_for_min_value(name_hash)
     if min_value < value
       min_value = value
       min_name = key
-        binding.pry
     end
   }
+  binding.pry
 end
 
 hash = {:blake => 500, :ashley => 2, :adam => 1}
