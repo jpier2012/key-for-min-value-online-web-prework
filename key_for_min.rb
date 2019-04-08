@@ -4,10 +4,10 @@ require 'pry'
 def key_for_min_value(name_hash)
   min_value = 0
   min_name = ""
-  name_hash.each {|name, value|
+  name_hash.each {|key, value|
     if min_value < value
       min_value = value
-      min_name = name
+      min_name = key
     end
   }
   binding.pry
