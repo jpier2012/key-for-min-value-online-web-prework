@@ -12,7 +12,7 @@ def key_for_min_value(name_hash)
       min_name = name
     end
   }
-  binding.pry
+  min_name
 end
 
 hash = {:blake => 500, :ashley => 2, :adam => 1}
