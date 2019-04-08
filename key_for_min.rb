@@ -5,13 +5,12 @@ def key_for_min_value(name_hash)
   min_value = 0
   min_name = ""
   name_hash.each {|key, value|
-    mem_value = value
     if min_value < value
       min_value = value
       min_name = key
+        binding.pry
     end
   }
-  binding.pry
 end
 
 hash = {:blake => 500, :ashley => 2, :adam => 1}
