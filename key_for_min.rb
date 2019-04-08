@@ -8,6 +8,6 @@ def key_for_min_value(name_hash)
     if value < x
       min_name = name
     end
-  return min_name
+  break
   }
 end
