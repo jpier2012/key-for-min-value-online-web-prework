@@ -3,7 +3,6 @@
 require 'pry'
 def key_for_min_value(name_hash)
   min_value = 0
-  max_value = 0
   min_name = ""
   name_hash.each {|key, value|
     if min_value == 0
