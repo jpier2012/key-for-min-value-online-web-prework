@@ -9,5 +9,6 @@ def key_for_min_value(name_hash)
     if value < x
       x = value
     end
+  name
   }
 end
